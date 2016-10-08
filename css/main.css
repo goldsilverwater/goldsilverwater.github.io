@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  src: url("../font/NanumBarunGothic.eot");
+  src: url("../font/NanumBarunGothic.eot?#iefix") format("embedded-opentype"), url("../font/NanumBarunGothic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  src: url("../font/NanumBarunGothic.eot");
+  src: url("../font/NanumBarunGothic.eot?#iefix") format("embedded-opentype"), url("../font/NanumBarunGothic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'NanumBarunGothicBold';
+  src: url("../font/nanumbarungothicbold.eot");
+  src: url("../font/nanumbarungothicbold.eot?#iefix") format("embedded-opentype"), url("../font/nanumbarungothicbold.woff2") format("woff2"), url("../font/nanumbarungothicbold.woff") format("woff"), url("../font/nanumbarungothicbold.ttf") format("truetype"), url("../font/nanumbarungothicbold.svg#nanum-barun-gothic-bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'NanumBarunGothicLight';
+  src: url("../font/nanumbarungothiclight.eot");
+  src: url("../font/nanumbarungothiclight.eot?#iefix") format("embedded-opentype"), url("../font/nanumbarungothiclight.woff2") format("woff2"), url("../font/nanumbarungothiclight.woff") format("woff"), url("../font/nanumbarungothiclight.ttf") format("truetype"), url("../font/nanumbarungothiclight.svg#nanum-barun-gothic-light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'NanumBarunGothicRegular';
+  src: url("../font/nanumbarungothicregular.eot");
+  src: url("../font/nanumbarungothicregular.eot?#iefix") format("embedded-opentype"), url("../font/nanumbarungothicregular.woff2") format("woff2"), url("../font/nanumbarungothicregular.woff") format("woff"), url("../font/nanumbarungothicregular.ttf") format("truetype"), url("../font/nanumbarungothicregular.svg#nanum-barun-gothic-regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'NanumBarunGothicUltralight';
+  src: url("../font/nanumbarungothicultralight.eot");
+  src: url("../font/nanumbarungothicultralight.eot?#iefix") format("embedded-opentype"), url("../font/nanumbarungothicultralight.woff2") format("woff2"), url("../font/nanumbarungothicultralight.woff") format("woff"), url("../font/nanumbarungothicultralight.ttf") format("truetype"), url("../font/nanumbarungothicultralight.svg#nanum-barun-gothic-ultralight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  src: url("../font/NanumBarunGothic.eot");
+  src: url("../font/NanumBarunGothic.eot?#iefix") format("embedded-opentype"), url("../font/NanumBarunGothic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  src: url("../font/NanumBarunGothic.eot");
+  src: url("../font/NanumBarunGothic.eot?#iefix") format("embedded-opentype"), url("../font/NanumBarunGothic.woff") format("woff"); }
+
+@font-face {
+  font-family: 'NanumBarunGothicBold';
+  src: url("../font/nanumbarungothicbold.eot");
+  src: url("../font/nanumbarungothicbold.eot?#iefix") format("embedded-opentype"), url("../font/nanumbarungothicbold.woff2") format("woff2"), url("../font/nanumbarungothicbold.woff") format("woff"), url("../font/nanumbarungothicbold.ttf") format("truetype"), url("../font/nanumbarungothicbold.svg#nanum-barun-gothic-bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'NanumBarunGothicLight';
+  src: url("../font/nanumbarungothiclight.eot");
+  src: url("../font/nanumbarungothiclight.eot?#iefix") format("embedded-opentype"), url("../font/nanumbarungothiclight.woff2") format("woff2"), url("../font/nanumbarungothiclight.woff") format("woff"), url("../font/nanumbarungothiclight.ttf") format("truetype"), url("../font/nanumbarungothiclight.svg#nanum-barun-gothic-light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'NanumBarunGothicRegular';
+  src: url("../font/nanumbarungothicregular.eot");
+  src: url("../font/nanumbarungothicregular.eot?#iefix") format("embedded-opentype"), url("../font/nanumbarungothicregular.woff2") format("woff2"), url("../font/nanumbarungothicregular.woff") format("woff"), url("../font/nanumbarungothicregular.ttf") format("truetype"), url("../font/nanumbarungothicregular.svg#nanum-barun-gothic-regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'NanumBarunGothicUltralight';
+  src: url("../font/nanumbarungothicultralight.eot");
+  src: url("../font/nanumbarungothicultralight.eot?#iefix") format("embedded-opentype"), url("../font/nanumbarungothicultralight.woff2") format("woff2"), url("../font/nanumbarungothicultralight.woff") format("woff"), url("../font/nanumbarungothicultralight.ttf") format("truetype"), url("../font/nanumbarungothicultralight.svg#nanum-barun-gothic-ultralight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.intro-wrap {
+  text-align: center;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: -moz-radial-gradient(center, ellipse cover, #e1ffff 0%, #fdfdfd 0%, #fdffff 0%, #f7f8fa 52%, #e2ecee 77%, #cddce1 96%, #ccdbe0 100%);
+  /* FF3.6-15 */
+  background-color: -webkit-radial-gradient(center, ellipse cover, #e1ffff 0%, #fdfdfd 0%, #fdffff 0%, #f7f8fa 52%, #e2ecee 77%, #cddce1 96%, #ccdbe0 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background-color: radial-gradient(ellipse at center, #e1ffff 0%, #fdfdfd 0%, #fdffff 0%, #f7f8fa 52%, #e2ecee 77%, #cddce1 96%, #ccdbe0 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#ccdbe0',GradientType=1 );
+  background-image: url("../img/intro-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 500px; }
+
+.intro-logo {
+  width: 10vw;
+  height: 10vw;
+  min-width: 80px;
+  min-height: 80px;
+  background-color: #012b41;
+  position: absolute;
+  left: 50%;
+  top: 12vw;
+  margin-left: -6vw; }
+
+.intro-logo-box {
+  width: 100%;
+  height: 100%;
+  min-width: 80px;
+  min-height: 80px;
+  background-color: #012034; }
+
+.intro-logo-text {
+  display: inline-block;
+  color: #eaeef1;
+  margin-top: 1.9vw;
+  font-size: 3vw; }
+
+.intro-text-wrap {
+  width: 30vw;
+  height: 6vw;
+  color: #012b41;
+  position: absolute;
+  left: 50%;
+  top: 35vw;
+  margin-left: -15vw; }
+
+.intro-text-bold {
+  font-size: 3vw; }
+
+.intro-text-light {
+  font-size: 1.5vw;
+  margin-top: 1.5vw; }
+
+.intro-text-line {
+  display: inline-block;
+  width: 3vw;
+  height: 0.1vw;
+  border-bottom: 1px solid #c9d2d7;
+  margin-bottom: 0.5vw; }
+
+.intro02-wrap {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  margin: 0;
+  padding: 0; }

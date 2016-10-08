@@ -1,0 +1,135 @@
+a:link, a:visited {
+  text-decoration: none; }
+
+a:hover, a:focus {
+  text-decoration: none; }
+
+.detail {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto; }
+
+.detail-title {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 49px;
+  position: fixed; }
+
+.detail-title-padding {
+  padding: 0 70px 0 150px;
+  position: relative;
+  overflow: hidden; }
+
+.header-left {
+  color: red;
+  width: 140px;
+  height: 49px;
+  position: absolute;
+  left: 10px;
+  top: 0;
+  background-color: red;
+  overflow: hidden;
+  border-bottom: 1px solid #999; }
+
+.detail-title-padding h1 {
+  display: block;
+  width: 100%;
+  line-height: 49px;
+  height: 49px;
+  font-size: 15px;
+  text-align: center;
+  background-color: red;
+  margin: 0;
+  border-bottom: 1px solid #999; }
+
+.detail-nav {
+  width: 60px;
+  height: 49px;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  background-color: #029f86;
+  border-bottom: 1px solid #000; }
+
+.header-comment {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-color: #555; }
+
+.header-heart {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-color: #029f86; }
+
+/*detail-contents*/
+.detail-padding01 {
+  padding: 50px 10px 0 10px; }
+
+.detail-contents {
+  padding: 50px 0 30px 0;
+  background-color: orange; }
+
+.category-name {
+  text-align: center;
+  color: #999;
+  font-size: 13px; }
+
+.detail-contents h2 {
+  text-align: center;
+  font-size: 24px;
+  line-height: 29px; }
+
+.title-image {
+  width: 70%;
+  height: 400px;
+  background-color: red;
+  margin: 40px auto 0; }
+
+.detail-text {
+  width: 100%;
+  height: 1000px;
+  background-color: #8ed09d;
+  margin-top: 40px; }
+
+/*detail-comment*/
+.detail-comment {
+  background-color: #c4f5ff; }
+
+.detail-comment h2 {
+  font-size: 14px;
+  background-color: #0592b0;
+  padding: 5px 0; }
+
+.deatail-comment-area {
+  width: 100%;
+  height: 500px;
+  background-color: #05d3ff; }
+
+.deatail-comment-area div {
+  width: 300px;
+  height: 180px;
+  background-color: #0723ac; }
+
+/*comment-more*/
+.comment-more h3 {
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  background-color: #afbcfc; }
+
+/*popular-comment-more*/
+.popular-comment-more h3 {
+  text-align: right;
+  width: 100%;
+  height: 400px;
+  background-color: #657df8; }
+
+/*footer*/
+footer {
+  background-color: #333;
+  width: 100%;
+  height: 500px;
+  color: orange; }
