@@ -187,8 +187,8 @@ table {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#ccdbe0',GradientType=1 );
   background-image: url("../img/intro-bg.png");
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: 0 500px; }
+  background-size: 100% 50vh;
+  background-position: 0 50vh;}
 
 .intro-logo {
   width: 10vw;
